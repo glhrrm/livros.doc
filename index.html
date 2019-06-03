@@ -9,59 +9,134 @@
         rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css'>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
     <title>livros.doc</title>
     <link rel="icon" href="favicon.png">
 </head>
 
 <body>
-    <a href="index.html">
-        <header>
-            <i class="fas fa-book-reader" style="color: #A84809; font-size: 5em"></i>
-            <h1>livros.doc</h1>
-            <h2>Do papel ao digital</h2>
-        </header>
-    </a>
-    <nav>
-        <a href="index.html">Início</a>
-        <a href="">Produtos</a>
-        <a href="">Serviços</a>
-        <a href="">Contato</a>
-        <a href="sobre.html">Sobre</a>
-    </nav>
-    <section>
-        <article>
-            <i class="material-icons">remove_red_eye</i>
-            <h3 class="article-name">Leia</h3>
-            <hr>
-            <div class="article-text">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore magna aliqua. Ut enim ad minim veniam,quis nostrud exercitation ullamco laboris nisi ut aliquip
-                ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                fugiat nulla pariatur.
+    <header>
+        <a href="#index">
+            <div id="logo-area">
+                <i class="fas fa-book-reader" style="color: #A84809; font-size: 5em"></i>
+                <h1>livros.doc</h1>
+                <h2>Do papel ao digital</h2>
             </div>
-        </article>
-        <article>
-            <i class="material-icons">star</i>
-            <h3 class="article-name">Avalie</h3>
-            <hr>
-            <div class="article-text">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore magna aliqua. Ut enim ad minim veniam,quis nostrud exercitation ullamco laboris nisi ut aliquip
-                ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                fugiat nulla pariatur.
+        </a>
+        <nav>
+            <a href="#index">Início</a>
+            <a href="#produtos">Produtos</a>
+            <a href="#servicos">Serviços</a>
+            <a href="#contato">Contato</a>
+            <a href="#sobre">Sobre</a>
+            <div id="menu">
+                <i class="material-icons">menu</i>
             </div>
-        </article>
-        <article>
-            <i class="material-icons">share</i>
-            <h3 class="article-name">Compartilhe</h3>
-            <hr>
-            <div class="article-text">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore magna aliqua. Ut enim ad minim veniam,quis nostrud exercitation ullamco laboris nisi ut aliquip
-                ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                fugiat nulla pariatur.
-            </div>
-        </article>
-    </section>
+        </nav>
+    </header>
+    <div id="index">
+        <section>
+            <article>
+                <i class="material-icons">remove_red_eye</i>
+                <h3 class="article-name">Leia</h3>
+                <hr>
+                <div class="article-text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et
+                    dolore magna aliqua. Ut enim ad minim veniam,quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip
+                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+                    dolore eu
+                    fugiat nulla pariatur.
+                </div>
+            </article>
+            <article>
+                <i class="material-icons">star</i>
+                <h3 class="article-name">Avalie</h3>
+                <hr>
+                <div class="article-text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et
+                    dolore magna aliqua. Ut enim ad minim veniam,quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip
+                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+                    dolore eu
+                    fugiat nulla pariatur.
+                </div>
+            </article>
+            <article>
+                <i class="material-icons">share</i>
+                <h3 class="article-name">Compartilhe</h3>
+                <hr>
+                <div class="article-text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et
+                    dolore magna aliqua. Ut enim ad minim veniam,quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip
+                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+                    dolore eu
+                    fugiat nulla pariatur.
+                </div>
+            </article>
+        </section>
+    </div>
+    <div id="sobre">
+        <section>
+            <article>
+                <i class="material-icons">color_lens</i>
+                <h3 class="article-name">Cores</h3>
+                <hr>
+                <div class="article-text">
+                    A paleta de cores monocromática reflete a busca por um site limpo e minimalista. O uso de tons de
+                    marrom
+                    tem como objetivo reproduzir a sensação de conforto proporcionada pelo prazer de ler um livro, além
+                    de
+                    remeter à coloração do papel.
+                </div>
+            </article>
+            <article>
+                <i class="material-icons">font_download</i>
+                <h3 class="article-name">Tipografia</h3>
+                <hr>
+                <div class="article-text">
+                    O logotipo utiliza a fonte monoespaçada PT Mono, remetendo ao universo digital, e o slogan em IM
+                    Fell
+                    English, inspirada nos tipos de máquinas de escrever. Os títulos fazem reuso desta última, com
+                    variação
+                    de estilo, enquanto textos descritivos estão formatados em Libre Franklin, uma tipografia moderna e
+                    limpa que facilita a legibilidade.
+                </div>
+            </article>
+            <article>
+                <i class="material-icons">format_align_left</i>
+                <h3 class="article-name">C.R.A.P.</h3>
+                <hr>
+                <div class="article-text">
+                    O contraste pode ser observado na diferenciação entre as seções da página (cabeçalho, menu e corpo)
+                    por
+                    meio do uso de cores e sombra, bem como na tipografia e nível de destaque entre títulos e
+                    respectivos
+                    conteúdos. A repetição e a proximidade são visíveis entre os itens do menu e os blocos de texto que
+                    compõem o conteúdo. Os elementos da página são alinhados pelo eixo central, exceto pelo texto, que
+                    está
+                    alinhado à esquerda.
+                </div>
+            </article>
+        </section>
+    </div>
 </body>
+
+<script>
+    window.onhashchange = function (e) {
+        const oldURL = e.oldURL.split('#')[1]
+        const newURL = e.newURL.split('#')[1]
+        const oldMenu = document.querySelector(`nav a[href='#${oldURL}']`)
+        const newMenu = document.querySelector(`nav a[href='#${newURL}']`)
+        oldMenu && oldMenu.classList.remove('selected')
+        newMenu && newMenu.classList.add('selected')
+    }
+</script>
+
 </html>
