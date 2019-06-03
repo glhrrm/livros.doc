@@ -17,3 +17,12 @@ $(function () {
         $('#sobre').toggle(ix === 4)
     });
 });
+
+window.onhashchange = function (e) {
+    const oldURL = e.oldURL.split('#')[1]
+    const newURL = e.newURL.split('#')[1]
+    const oldMenu = document.querySelector(`nav a[href='#${oldURL}']`)
+    const newMenu = document.querySelector(`nav a[href='#${newURL}']`)
+    oldMenu && oldMenu.classList.remove('selected')
+    newMenu && newMenu.classList.add('selected')
+}
